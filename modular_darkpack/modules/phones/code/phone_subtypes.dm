@@ -229,7 +229,7 @@
 
 /obj/item/smartphone/novice
 	contact_networks_pre_init = list(
-		alist(NETWORK_ID = SOCIETY_OF_LEOPOLD_NETWORK, OUR_ROLE = "Novice", USE_JOB_TITLE = FALSE)
+		alist(NETWORK_ID = SOCIETY_OF_LEOPOLD_NETWORK, OUR_ROLE = "Co-Worker", USE_JOB_TITLE = FALSE)
 		)
 
 /obj/item/smartphone/condottieri
@@ -239,7 +239,7 @@
 
 /obj/item/smartphone/inquisitor
 	contact_networks_pre_init = list(
-		alist(NETWORK_ID = SOCIETY_OF_LEOPOLD_NETWORK, OUR_ROLE = "Co-Worker", USE_JOB_TITLE = FALSE)
+		alist(NETWORK_ID = SOCIETY_OF_LEOPOLD_NETWORK, OUR_ROLE = "Technician", USE_JOB_TITLE = FALSE)
 		)
 
 /obj/item/smartphone/abbe
