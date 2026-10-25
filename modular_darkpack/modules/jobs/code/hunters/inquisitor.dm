@@ -35,13 +35,14 @@
 	id = /obj/item/card/hunter
 	head = /obj/item/clothing/head/vampire/cowboy
 	uniform = /obj/item/clothing/under/vampire/brujah
+	belt = /obj/item/gun/ballistic/shotgun/vampire/sawnoff // CRIMSON GRID EDIT
 	gloves = /obj/item/clothing/gloves/vampire/leather
 	suit = /obj/item/clothing/suit/vampire/trench/alt/armored
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
 	glasses = /obj/item/clothing/glasses/vampire/sun
 	r_pocket = /obj/item/vamp/keys/hunter
 	l_pocket = /obj/item/smartphone/inquisitor
-	backpack_contents = list(/obj/item/vampire_stake=2, /obj/item/intel_report=1, /obj/item/vampirebook/bible=1, /obj/item/masquerade_contract=1, /obj/item/card/credit=1)
+	backpack_contents = list(/obj/item/vampire_stake=2, /obj/item/intel_report=1, /obj/item/vampirebook/bible=1, /obj/item/masquerade_contract=1, /obj/item/card/credit=1, /obj/item/ammo_box/darkpack/c12g/buck=1) // CRIMSON GRID EDIT
 
 /datum/outfit/job/vampire/inquisitor/pre_equip(mob/living/carbon/human/H)
 	. = ..()
