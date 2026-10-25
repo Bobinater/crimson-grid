@@ -42,7 +42,7 @@
 	glasses = /obj/item/clothing/glasses/vampire/sun
 	r_pocket = /obj/item/vamp/keys/hunter
 	l_pocket = /obj/item/smartphone/inquisitor
-	backpack_contents = list(/obj/item/vampire_stake=2, /obj/item/intel_report=1, /obj/item/vampirebook/bible=1, /obj/item/masquerade_contract=1, /obj/item/card/credit=1, /obj/item/ammo_box/darkpack/c12g/buck=1) // CRIMSON GRID EDIT
+	backpack_contents = list(/obj/item/vampire_stake=1, /obj/item/intel_report=1, /obj/item/vampirebook/bible=1, /obj/item/masquerade_contract=1, /obj/item/card/credit=1, /obj/item/ammo_box/darkpack/c12g/buck=1) // CRIMSON GRID EDIT
 
 /datum/outfit/job/vampire/inquisitor/pre_equip(mob/living/carbon/human/H)
 	. = ..()
